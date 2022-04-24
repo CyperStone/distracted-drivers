@@ -19,7 +19,9 @@ Image classification of distracted drivers.
 * Drivers behavior is divided to 10 (quite balanced) classes. Classes overview:
  ![alt text](https://github.com/CyperStone/distracted-drivers/blob/main/visualization/classes.png)
  
- ## Model architecture and performance:
- * Trained custom CNN model with the following architecture:
-  <img src="https://github.com/CyperStone/distracted-drivers/blob/main/visualization/model_architecture.png" width="500" height="900">
- * Model misclassified only 80 images out of 4485 in the test set (many of them would be challenging to distinguish even for people) and reached the following metrics:
+## Model architecture and performance:
+* Trained custom CNN model with the following architecture:
+ <img src="https://github.com/CyperStone/distracted-drivers/blob/main/visualization/model_architecture.png" width="500" height="900">
+* Model misclassified only 80 images out of 4485 in the test set (many of them would be challenging to distinguish even for people) and reached the following metrics:
+ 
+ ![alt text](https://github.com/CyperStone/distracted-drivers/blob/main/visualization/results.png)
